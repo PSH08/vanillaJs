@@ -1,11 +1,3 @@
-const a = 10;
-const b = 2;
-let myName = "luya"
+const title = document.querySelector(".hello h1")
 
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("hello" + ' ' + myName);
-
-myName = 'luyas';
-console.log("your new name is " + myName);
+title.innerHTML = "Hello!"
