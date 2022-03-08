@@ -1,7 +1,9 @@
-const h1 = document.querySelector("div.hello:first-child h1")
+const loginInout = document.querySelector("#login-form input");
+const loginButton = document.querySelector("#login-form button");
 
-function handleTitleClick() {
-  h1.classList.toggle("clicked")
+function onLoginBtnClick() {
+  const username = loginInout.ariaValueMax;
+  console.log(username)
 }
 
-h1.addEventListener("click", handleTitleClick);
+loginButton.addEventListener("click", onLoginBtnClick)
