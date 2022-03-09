@@ -10,3 +10,6 @@ h1 {
 .sexy-font {
   font-family: 'Courier New', Courier, monospace;
 }
+.hidden {
+  display: none;
+}
